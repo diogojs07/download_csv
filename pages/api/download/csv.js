@@ -9,7 +9,7 @@ export const downloadResource = (res, fileName, fields, data) => {
 }
 export default function handler(req, res) {
   const data = [
-    { name: 'test1', score: 1, level: 'Z' },
+    { name: 'test1', score: 1 },
     { name: 'test2', score: 2 },
     { name: 'test3', score: 3 },
     { name: 'test4', score: 4 },

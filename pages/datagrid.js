@@ -1,8 +1,9 @@
-const datas = [
-    { name: 'test1', score: 1, level: 'Z' },
-    { name: 'test2', score: 2 },
-    { name: 'test3', score: 3 },
-    { name: 'test4', score: 4 },
-  ];
-   
-  const columns = { name: '姓名', score: '分数' };
+function DownloadButtonPage() {  
+  
+  return(
+  <button>
+    <a href="/api/download/csv" download>download</a>
+  </button>   
+  )}  
+  
+export default DownloadButtonPage
